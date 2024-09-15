@@ -1,0 +1,41 @@
+/* Nav.css */
+.Header_Header {
+  display: flex;
+  flex-direction: end;
+  background-color: #007bff;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+
+.nav-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  display: flex; /* Arrange list items in a row */
+  justify-content: center; /* Center items horizontally */
+}
+
+.nav-item {
+  text-decoration: none; /* Remove default underline */
+  color: #000; /* Default text color */
+  padding: 10px 15px; /* Add padding around each item */
+  font-size: 16px; /* Adjust font size as needed */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-item:hover {
+  color: #007bff; /* Color on hover */
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  background-color: #007bff;
+  margin: 10px;
+
+  justify-content: center;
+
+  text-align: center;
+}
