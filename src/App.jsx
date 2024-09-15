@@ -4,12 +4,11 @@ import Header from "./assets/Header";
 import About from "./assets/About";
 import Food from "./assets/Food";
 import Card from "./assets/Card";
-import Button from "./assets/button/Button";
+import Button from "./assets/Button";
 import Student from "./assets/Student";
 import User from "./User";
 import List from "./assets/List";
-
-
+import Mycomponent from "./Mycomponent";
 function App() {
   const fruits = [
     { id: 1, name: "Orange", calories: 95 },
@@ -23,6 +22,7 @@ function App() {
   ];
   return (
     <>
+    <Mycomponent/>
       <List items={fruits} />
       <User username="Kaneki" isLoggedin={true} />
       <Student name="son goku" />

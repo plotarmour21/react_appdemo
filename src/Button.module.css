@@ -18,3 +18,12 @@
   background-color: #0056b3;
   transform: scale(1.05);
 }
+/* MyComponent.module.css */
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  /* Optional: Add a maximum width and center the container */
+  max-width: 600px;
+  margin: 0 auto;
+}
