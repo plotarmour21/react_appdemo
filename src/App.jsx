@@ -9,6 +9,11 @@ import Student from "./assets/Student";
 import User from "./User";
 import List from "./assets/List";
 import Mycomponent from "./Mycomponent";
+import Increment from "./assets/Increment";
+import Field from "./assets/Field";
+import MyForm from "./assets/MyForm";
+import Colorpicker from "./assets/Colorpicker";
+
 function App() {
   const fruits = [
     { id: 1, name: "Orange", calories: 95 },
@@ -22,7 +27,11 @@ function App() {
   ];
   return (
     <>
-    <Mycomponent/>
+    <Colorpicker/>
+    <MyForm/>
+    <Field/>
+      <Increment />
+      <Mycomponent />
       <List items={fruits} />
       <User username="Kaneki" isLoggedin={true} />
       <Student name="son goku" />

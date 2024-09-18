@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import styles from "./Button.module.css";
 
 export default function Button() {
@@ -11,8 +12,6 @@ export default function Button() {
   return (
     <button onClick={handleClick} className={styles.button}>
       Clicked {count}
-   
     </button>
-      
   );
 }
